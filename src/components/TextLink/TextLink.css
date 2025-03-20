@@ -1,0 +1,21 @@
+.link-button {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  cursor: pointer;
+}
+
+.link-button-red {
+  color: #c93957;
+}
+
+.link-button-mark {
+  display: flex;
+  gap: 6px;
+  color: #898989;
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.search-bar {
+  width: 360px;
+  height: 48px;
+  position: relative;
+}
+
+.search-bar-textfield {
+  width: 265px;
+  height: 48px;
+  border: 1px solid #d8d8d8;
+  border-radius: 100px;
+  border-width: 1px;
+  background: #ffffff;
+  padding: 0 80px 0 20px;
+}
+
+.serach-bar-button {
+  position: absolute;
+  right: 0;
+  top: 7px;
+}

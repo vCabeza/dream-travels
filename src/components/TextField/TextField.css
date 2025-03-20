@@ -1,0 +1,45 @@
+.textfield-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.textfield {
+  height: 48px;
+  border: 1px solid #d8d8d8;
+  border-radius: 100px;
+  border-width: 1px;
+  background: #ffffff;
+  padding: 0 20px 0 20px;
+}
+
+.textfield-typography {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.textarea {
+  padding: 20px;
+}
+
+.textfield-small {
+  height: 48px;
+  border-radius: 100px;
+}
+
+.textfield-medium {
+  height: 72px;
+  border-radius: 16px;
+}
+
+.textfield-large {
+  height: 120px;
+  border-radius: 16px;
+}
+
+.textfield-xl {
+  height: 144px;
+  border-radius: 16px;
+}

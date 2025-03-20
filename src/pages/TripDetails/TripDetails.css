@@ -1,0 +1,94 @@
+.trip-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trip-details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.trip-header-title {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -1%;
+}
+
+.trip-header-CTA {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+}
+
+.trip-description {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.divider {
+  width: 576;
+  border: 1px solid #d8d8d8;
+}
+
+.trip-itinerary-item {
+  display: flex;
+  gap: 24px;
+  padding-left: 8px;
+}
+
+.trip-itinerary-header-title {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.5%;
+}
+
+.trip-itinerary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.trip-itinerary-item-dot {
+  width: 11px;
+  height: 11px;
+  top: 7px;
+  background-color: #121212;
+  border-radius: 50%;
+}
+
+.trip-itinerary-item-line-after {
+  border: 1px solid #121212;
+  background-color: #121212;
+  width: 1px;
+  height: 130%;
+  margin-left: 4px;
+}
+
+.trip-itinerary-body-header {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.trip-itinerary-body-description {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+}

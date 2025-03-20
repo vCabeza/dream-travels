@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  width: 928px;
+  height: 206px;
+  border: 1px solid #d8d8d8;
+  border-radius: 16px;
+}
+
+.card-image {
+  width: fill;
+  height: 206px;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: fill;
+  height: 206px;
+  padding: 25px;
+  gap: 15px;
+}
+
+.card-title {
+  width: 416;
+  height: 72;
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: -0.5%;
+}
+
+.card-description {
+  font-family: Oakes Grotesk;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 416px;
+  height: 72px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-btn-group {
+  display: flex;
+  gap: 16px;
+}

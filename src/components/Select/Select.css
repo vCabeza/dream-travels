@@ -1,0 +1,17 @@
+.select-container::after {
+  content: url("../../icons/arrow-down.png");
+  position: absolute;
+  transform: translateY(50%) translateX(-25px);
+  pointer-events: none;
+}
+
+.select {
+  height: 48px;
+  min-width: 120px;
+  border: 1px solid #d8d8d8;
+  border-radius: 100px;
+  background: #ffffff;
+  padding: 0 20px 0 20px;
+  cursor: pointer;
+  appearance: none;
+}

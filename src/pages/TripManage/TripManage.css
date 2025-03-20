@@ -1,0 +1,33 @@
+.manage-trip {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.itinerary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.itinerary-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itinerary-body {
+  display: flex;
+  width: fill;
+  height: auto;
+  border-radius: 16px;
+  gap: 8px;
+  padding: 16px;
+  background: #f3f3f3;
+}
+
+.itinerary-texts {
+  display: flex;
+  flex-direction: column;
+  width: fill;
+  gap: 8px;
+}
