@@ -1,7 +1,5 @@
 # Dream Travels
 
-This project is a code test for Exoticca
-
 ## Components
 
 I have developed this project without using any external UI libraries to showcase my ability to build components from scratch. This approach allows you to assess my skills in structuring, styling, and handling component logic without relying on pre-built solutions
