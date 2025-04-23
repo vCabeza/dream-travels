@@ -7,3 +7,6 @@ I have developed this project without using any external UI libraries to showcas
 ## Tests
 
 Additionally, every component and page in the project includes its own tests to ensure functionality and maintainability. The test coverage reaches 98%.
+
+## Usage
+npm run start
