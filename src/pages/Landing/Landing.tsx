@@ -8,7 +8,6 @@ import SearchBar from "../../components/SearchBar/SearchBar";
 import TripManage from "../TripManage/TripManage";
 import TripDetails from "../TripDetails/TripDetails";
 import "./Landing.css";
-import logo from "../../icons/Favicon.png";
 
 const Landing = () => {
   const [travels, setTravels] = useState<TravelPlan[]>([]);
@@ -115,7 +114,7 @@ const Landing = () => {
   return (
     <div className="landing" aria-label="landing-page">
       <div className="nav">
-        <img className="nav-logo" src={logo} />
+        <img className="nav-logo" />
         <Button
           value="Create new trip"
           onClick={() => setIsCreateOpen(true)}
